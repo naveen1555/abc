@@ -1,0 +1,29 @@
+.layoutMain {
+  height: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+  /* background: rgb(222 240 222 / 56%); */
+  background: #e4f3e4;
+}
+
+.childContiner {
+  padding: 10px 30px;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+  position: sticky;
+  top: 0;
+  background: #e4f3e4;
+  z-index: 999;
+}
+
+.helloText {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: roboto;
+  font-weight: 500;
+}

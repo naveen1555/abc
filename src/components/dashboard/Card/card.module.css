@@ -1,0 +1,50 @@
+.cardContainer {
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 25px 10px;
+  box-shadow: 1px 0px 2px #000;
+}
+
+.cardTextContainer {
+  text-align: left;
+}
+
+.title {
+  color: thistle;
+  font-size: 10px;
+}
+
+.cardTextContainer h5 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.grothIndicationContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.negitiveValue {
+  color: red;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.positiveValue {
+  color: green;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1290px) {
+  .grothIndicationContainer {
+    flex-direction: column;
+  }
+}

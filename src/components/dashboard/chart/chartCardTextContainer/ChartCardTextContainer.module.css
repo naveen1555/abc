@@ -1,0 +1,14 @@
+.mainContainer {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 20px;
+  margin: 0;
+}
+.subTitle {
+  font-size: 15px;
+  color: #9a9595;
+  margin-top: 10px;
+}

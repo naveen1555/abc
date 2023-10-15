@@ -1,0 +1,113 @@
+.dashboardMain {
+  /* background: green; */
+}
+
+.mainContainer {
+  display: grid;
+  left: 0;
+  grid-template-columns: 250px auto;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.chartsContainer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.circeChartContainer {
+  background: #fff;
+  border-radius: 8px;
+  height: 400px;
+  padding: 20px;
+  /* width: 100%; */
+}
+
+.circeChartSubContainer {
+  margin: 20% auto;
+  width: min-content;
+}
+
+.productSellContianer {
+  background: #fff;
+  border-radius: 8px;
+}
+
+.productLabels {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productLabelsRightContainer {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  align-items: center;
+  gap: 20px;
+}
+
+.productsTableTopbar {
+  box-shadow: 0px 2px 0px #867878;
+  padding: 20px;
+}
+
+.productsContainer {
+  padding: 20px;
+}
+
+.productsTitleBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1070px) {
+  .cardsContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+  .mainContainer {
+    display: flex;
+  }
+  .chartsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .circeChartContainer {
+    width: 100% !important;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .chartCardHeight {
+    height: auto !important;
+  }
+}
+
+/* @media only screen and (max-width: 1025px) {
+  .circeChartContainer {
+    width: 100% !important;
+    padding: 20px;
+  }
+} */
+
+/* @media only screen and (max-width: 600px) {
+  .circeChartContainer {
+    width: 100% !important;
+    padding: 20px;
+  }
+
+  .chartsContainer {
+    padding: 0 20px;
+  }
+} */

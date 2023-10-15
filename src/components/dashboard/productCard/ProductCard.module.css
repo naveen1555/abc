@@ -1,0 +1,40 @@
+.productInfoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.productInfoContainer img {
+  border-radius: 8px;
+}
+
+.productTitle {
+  text-align: left;
+}
+
+.productTitle h3 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.productInfo {
+  color: #716b6b;
+  /* width: 600px; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.leftContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.rightContainer {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  align-items: center;
+  gap: 20px;
+}
